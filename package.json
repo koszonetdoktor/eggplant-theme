@@ -1,0 +1,29 @@
+{
+  "name": "eggplant",
+  "displayName": "Eggplant Theme",
+  "description": "Purple based color theme",
+  "version": "0.0.3",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Eggplant light",
+        "uiTheme": "vs",
+        "path": "./themes/Eggplant-color-theme.json"
+      },
+      {
+        "label": "Eggplant dark",
+        "uiTheme": "vs",
+        "path": "./themes/Eggplant-dark-color-theme.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "vsce": "^2.10.2"
+  }
+}
